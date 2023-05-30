@@ -1,0 +1,66 @@
+.back{
+    text-align: left;
+    font-weight: 10px;
+  }
+  .evename{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .card-detail{
+    position: absolute;
+    width: 85vh;
+    height: 90vh;
+    padding: 20px;
+    background-color: rgba(187, 180, 180, 0.4);
+    margin-right: 10px;
+    margin-left: 90vh;
+    margin-top: 50px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+
+  }
+  .eventtab{
+    display: flex;
+    flex-direction: row;
+  }
+  .eventdata-tab{
+    margin-left:15%;
+    margin-top:15px;
+    width: 400px;
+  }
+  .eventimgtab{
+    display: flex;
+    justify-content: right;
+    margin-left:20%;
+    margin-top:20%;
+  }
+  .eventimg{
+    height: 40vh;
+    width: 40vh;
+  }
+.textdata{
+  /* text-align: center; */
+  font-weight: normal;
+}
+.venuetab{
+    display: flex;
+    flex-direction: row;
+}
+.venuename{
+    margin-left:15%;
+    margin-top:20px;
+}
+.venuedetails{
+
+    margin-left:12%;
+    margin-top:20px;
+}
+.btn{
+    color: rgb(142, 142, 249);
+}
+.btn:hover{
+    color: rgb(142, 142, 249);
+}
